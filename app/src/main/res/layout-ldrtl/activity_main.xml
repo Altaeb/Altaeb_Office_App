@@ -19,14 +19,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="fitStart"
-                android:src="@drawable/bakground_en" />
+                android:src="@drawable/bakground" />
 
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:layout_gravity="left"
+                android:layout_gravity="right"
                 android:layout_marginTop="150dp"
-                android:src="@drawable/altaeib_en" />
+                android:src="@drawable/altaeib" />
 
         </FrameLayout>
 
@@ -39,14 +39,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Altaib Real Estate Office"
+                android:text="مكتب التائب للعقارات"
                 android:textSize="22sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Libya, Tripoli"
+                android:text="ليبيا, طرابلس"
                 android:textSize="14sp" />
 
             <TextView
@@ -62,20 +62,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Hello and welcome to Altaib Office for Real Estate and General Services."
+                android:text="أهلا ومرحبا بكم في مكتب التائب للعقارات والخدمات العامة ."
                 android:textSize="14sp" />
 
-            <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="For those wishing to sell, rent and replace real estate whether:"
-            android:textSize="14sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Apartments, villas, houses, land, farms, restrooms, administrative buildings, restaurants, hotels."
+                android:text="للراغبين في بيع وايجار واستبدال العقارات سواء كانت :"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="شقق-فلل-منازل-أراضي-مزارع -استراحات-مباني ادارية-مطاعم-فنادق."
                 android:textSize="14sp" />
 
         </LinearLayout>
@@ -104,7 +104,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Likes"
+                    android:text="إعجاب"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -131,7 +131,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Following"
+                    android:text="متابعة"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -158,7 +158,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" ‏Rated  "
+                    android:text="تقيمه "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -176,7 +176,7 @@
                 android:id="@+id/employer_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Altaib Office"
+                android:text="التائب للعقرات"
                 android:textStyle="bold" />
 
             <ImageView
@@ -195,10 +195,9 @@
                 android:layout_below="@+id/employer_name"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:layout_toRightOf="@+id/image_view_phone"
-                android:autoLink="phone"
-                android:text="+218927515251"
-                tools:ignore="RtlHardcoded" />
+                android:layout_toLeftOf="@+id/image_view_phone"
+                android:text="218927515251+"
+                tools:ignore="RtlHardcoded"/>
 
             <ImageView
                 android:id="@+id/image_view_address"
@@ -217,9 +216,8 @@
                 android:layout_below="@+id/image_view_phone"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
-                android:layout_toRightOf="@+id/image_view_address"
-                android:text="Libya, Tripoli"
-                tools:ignore="RtlHardcoded" />
+                android:layout_toLeftOf="@+id/image_view_address"
+                android:text="   ليبيا, طرابلس" />
 
         </RelativeLayout>
 
@@ -236,32 +234,32 @@
                 android:id="@+id/about"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="More Information"
+                android:text="حول"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Hello and welcome to Al Taib Office for Real Estate and General Services.
+                android:text="أهلا ومرحبا بكم في مكتب التائب للعقارات والخدمات العامة .
 
-For those wishing to sell, rent and replace real estate whether:
-Apartments, villas, houses, land, farms, restrooms, administrative buildings, restaurants, hotels.
+للراغبين في بيع وايجار واستبدال العقارات سواء كانت :
+شقق-فلل-منازل-أراضي-مزارع -استراحات-مباني ادارية-مطاعم-فنادق.
 
-Our scope of work is currently limited to these areas.
-# Souk_ Friday # Aradah # Oulad El Hajj # Tersalna # Shat_Hensher # Alhashan # Zanat # Hanni # Falshoum # Alnoflien #Dhahr #Farnaj #Sunhart # 11 Uniwa # 16 # lanes #Al Dahmani angle # Bab_Tajoura.
-And the suburbs of these areas.
-To contact us on the page messages or the number of the page or via e-mail.
+نطاق عملنا يقتصر على هذه المناطق حاليا.
+#سوق_الجمعه #عرادة #ولاد_الحاج #الترسلنة #شط_الهنشير #الحشان #زناته #الهاني #فشلوم #النوفليين #الظهرة #الفرناج #السبعة #الغرارت #11يونيوا #ال16 #الحارات #زاوية_الدهماني #باب_تاجوراء .
+وضواحي هذه المناطق .
+للتواصل معنا علي رسائل الصفحة أو الرقم الخاص بالصفحة أو عبر الإيميل .
 
------------------------------ --------------------- --------
+----------------------------- -----------------------------
 
-For those who have a property and would like to sell it -----> Please send the full property details to the mail in the page and not in the comments to make it easier for us to serve you.
+ولمن لديه عقار ويرغب في بيعه -----> نرجوا منك ارسال تفاصيل العقار كاملة على البريد الخاص بالصفحة وليس في التعليقات ليسهل علينا خدمتك.
 
-The details of the land area and roofed and the number of rooms and the exact location and property ownership and street view and price and we are ready to serve you
+والتفاصيل من مساحة الارض ومسقوف وعدد الغرف والموقع بالتحديد وملكية العقار وعرض الشارع والسعر ونحن جاهزون لخدمتكم
 
------------------------------ --------------------- --------
+----------------------------- -----------------------------
 
-For inquiries contact the following numbers: -
+وللاستفسار الاتصال بالأرقام التالية :-
 
 091-3904002
 092-5623657
@@ -271,7 +269,8 @@ For inquiries contact the following numbers: -
 091-6665574
 092-7233319
 
-Thank you for contacting us. ”"
+شكرا لتواصلكم معنا ."
+
                 android:textAlignment="center" />
 
         </LinearLayout>
