@@ -18,6 +18,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:contentDescription="@string/altaib_office"
                 android:scaleType="fitStart"
                 android:src="@drawable/bakground_en" />
 
@@ -26,6 +27,7 @@
                 android:layout_height="90dp"
                 android:layout_gravity="left"
                 android:layout_marginTop="150dp"
+                android:contentDescription="@string/altaib_office"
                 android:src="@drawable/altaeib_en" />
 
         </FrameLayout>
@@ -39,14 +41,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Altaib Real Estate Office"
+                android:text="@string/name"
                 android:textSize="22sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Libya, Tripoli"
+                android:text="@string/libya_tripoli"
                 android:textSize="14sp" />
 
             <TextView
@@ -55,27 +57,27 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
-                android:text="---------------------------------"
+                android:text="@string/dash"
                 android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Hello and welcome to Altaib Office for Real Estate and General Services."
+                android:text="@string/titel1"
                 android:textSize="14sp" />
 
             <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="For those wishing to sell, rent and replace real estate whether:"
+            android:text="@string/titel2"
             android:textSize="14sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Apartments, villas, houses, land, farms, restrooms, administrative buildings, restaurants, hotels."
+                android:text="@string/titel3"
                 android:textSize="14sp" />
 
         </LinearLayout>
@@ -97,14 +99,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4020"
+                    android:text="@string/likes_value"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Likes"
+                    android:text="@string/likes"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -124,14 +126,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4028"
+                    android:text="@string/followin_value"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Following"
+                    android:text="@string/following"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -151,14 +153,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4.4"
+                    android:text="@string/rated_value"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" ‏Rated  "
+                    android:text="@string/rated"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -176,7 +178,7 @@
                 android:id="@+id/employer_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Altaib Office"
+                android:text="@string/altaib_office"
                 android:textStyle="bold" />
 
             <ImageView
@@ -185,7 +187,7 @@
                 android:layout_height="24dp"
                 android:layout_below="@+id/employer_name"
                 android:layout_marginTop="8dp"
-                android:contentDescription="icon_phone"
+                android:contentDescription="@string/icon_phone"
                 android:scaleType="centerInside"
                 android:src="@drawable/call" />
 
@@ -197,7 +199,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_toRightOf="@+id/image_view_phone"
                 android:autoLink="phone"
-                android:text="+218927515251"
+                android:text="@string/phone"
                 tools:ignore="RtlHardcoded" />
 
             <ImageView
@@ -206,7 +208,7 @@
                 android:layout_height="24dp"
                 android:layout_below="@+id/image_view_phone"
                 android:layout_marginTop="8dp"
-                android:contentDescription="icon_address"
+                android:contentDescription="@string/icon_address"
                 android:scaleType="centerInside"
                 android:src="@drawable/add_location" />
 
@@ -218,7 +220,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_toRightOf="@+id/image_view_address"
-                android:text="Libya, Tripoli"
+                android:text="@string/libya_tripoli"
                 tools:ignore="RtlHardcoded" />
 
         </RelativeLayout>
@@ -236,42 +238,14 @@
                 android:id="@+id/about"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="More Information"
+                android:text="@string/about"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Hello and welcome to Al Taib Office for Real Estate and General Services.
-
-For those wishing to sell, rent and replace real estate whether:
-Apartments, villas, houses, land, farms, restrooms, administrative buildings, restaurants, hotels.
-
-Our scope of work is currently limited to these areas.
-# Souk_ Friday # Aradah # Oulad El Hajj # Tersalna # Shat_Hensher # Alhashan # Zanat # Hanni # Falshoum # Alnoflien #Dhahr #Farnaj #Sunhart # 11 Uniwa # 16 # lanes #Al Dahmani angle # Bab_Tajoura.
-And the suburbs of these areas.
-To contact us on the page messages or the number of the page or via e-mail.
-
------------------------------ --------------------- --------
-
-For those who have a property and would like to sell it -----> Please send the full property details to the mail in the page and not in the comments to make it easier for us to serve you.
-
-The details of the land area and roofed and the number of rooms and the exact location and property ownership and street view and price and we are ready to serve you
-
------------------------------ --------------------- --------
-
-For inquiries contact the following numbers: -
-
-091-3904002
-092-5623657
-091-5835551
-091-0691609
-091-4801620
-091-6665574
-092-7233319
-
-Thank you for contacting us. ”"
+                android:text="@string/description"
                 android:textAlignment="center" />
 
         </LinearLayout>
