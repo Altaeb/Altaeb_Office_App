@@ -9,17 +9,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/fff"
         android:orientation="vertical">
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_250">
+            android:layout_height="@dimen/dp_250"
+            android:background="@color/fff">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp_200"
                 android:contentDescription="@string/altaib_office"
-                android:scaleType="fitStart"
+                android:scaleType="centerCrop"
                 android:src="@drawable/bakground_en" />
 
             <ImageView
@@ -35,35 +37,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/fff">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/name"
-                android:textSize="@dimen/sp_22" />
+                android:text="@string/altaib_office"
+                android:textSize="@dimen/sp_22"
+                android:textColor="@color/title_color"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/libya_tripoli"
-                android:textSize="@dimen/sp_14" />
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/title_color"/>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/dp_10"
-                android:layout_marginTop="@dimen/dp_10"
-                android:text="@string/dash"
-                android:textSize="@dimen/sp_14" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_20"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_5"
                 android:text="@string/titel1"
                 android:textSize="@dimen/sp_14" />
 
@@ -71,14 +72,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_5"
             android:text="@string/titel2"
             android:textSize="@dimen/sp_14" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/titel3"
-                android:textSize="@dimen/sp_14" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:text="@string/titel3"
+            android:textSize="@dimen/sp_14" />
 
         </LinearLayout>
 
@@ -101,7 +108,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/likes_value"
                     android:textSize="@dimen/sp_18"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="@color/title_color"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -113,7 +121,8 @@
 
             <View
                 android:layout_width="@dimen/dp_1"
-                android:layout_height="@dimen/dp_60" />
+                android:layout_height="@dimen/dp_60"
+                android:background="@color/acacac"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -128,7 +137,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/followin_value"
                     android:textSize="@dimen/sp_18"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="@color/title_color"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,7 +150,8 @@
 
             <View
                 android:layout_width="@dimen/dp_1"
-                android:layout_height="@dimen/dp_60" />
+                android:layout_height="@dimen/dp_60"
+                android:background="@color/acacac"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -155,7 +166,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/rated_value"
                     android:textSize="@dimen/sp_18"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="@color/title_color"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -172,7 +184,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dp_24"
             android:layout_marginRight="@dimen/dp_24"
-            android:layout_marginTop="@dimen/dp_30">
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@color/DBE2E8">
 
             <TextView
                 android:id="@+id/employer_name"
@@ -203,10 +216,30 @@
                 tools:ignore="RtlHardcoded" />
 
             <ImageView
-                android:id="@+id/image_view_address"
+                android:id="@+id/image_view_email"
                 android:layout_width="@dimen/dp_24"
                 android:layout_height="@dimen/dp_24"
                 android:layout_below="@+id/image_view_phone"
+                android:layout_marginTop="@dimen/dp_8"
+                android:contentDescription="@string/icon_email"
+                android:scaleType="centerInside"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_view_phone"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_8"
+                android:layout_toRightOf="@+id/image_view_email"
+                android:text="@string/email"
+                tools:ignore="RtlHardcoded"/>
+
+            <ImageView
+                android:id="@+id/image_view_address"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:layout_below="@+id/image_view_email"
                 android:layout_marginTop="@dimen/dp_8"
                 android:contentDescription="@string/icon_address"
                 android:scaleType="centerInside"
@@ -216,7 +249,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/image_view_phone"
+                android:layout_below="@+id/image_view_email"
                 android:layout_marginLeft="@dimen/dp_8"
                 android:layout_marginTop="@dimen/dp_8"
                 android:layout_toRightOf="@+id/image_view_address"
@@ -245,7 +278,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_8"
-                android:text="@string/description"
+                android:text="@string/description1"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="@string/description2"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="@string/description3"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="@string/description4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="@string/description5"
                 android:textAlignment="center" />
 
         </LinearLayout>
