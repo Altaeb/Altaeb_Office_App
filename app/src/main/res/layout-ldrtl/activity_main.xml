@@ -21,8 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp_200"
                 android:contentDescription="@string/altaib_office"
-                android:scaleType="centerCrop"
-                android:src="@drawable/bakground" />
+                android:scaleType="fitXY"
+                android:src="@drawable/background" />
 
             <ImageView
                 android:layout_width="@dimen/dp_90"
